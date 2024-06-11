@@ -1,0 +1,27 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-segundario: #C0C0C0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030C;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.principal {
+    background-image: url(img/voce-conhece-a-alura-empresa-divulgou-oportunidade-para-pessoas-com-disponibilidade-para-trabalhar-em-casa-838x471.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
+
