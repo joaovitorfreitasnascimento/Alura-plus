@@ -3,11 +3,15 @@
     --cinza-segundario: #C0C0C0;
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030C;
+    --fonte-principal: 'inter';
 }
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 *{
@@ -16,12 +20,38 @@ body {
 }
 
 .principal {
-    background-image: url(img/voce-conhece-a-alura-empresa-divulgou-oportunidade-para-pessoas-com-disponibilidade-para-trabalhar-em-casa-838x471.jpg);
+    background-image: url(img/880a7db2a4e382f0e240f8e38772526b.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
+    grid-template-columns: 50% 50%;
 }
 
 .container {
     height: 100vh;
+    display: grid;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-segundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
 }
 
